@@ -8,11 +8,11 @@
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
   <remote name="fsl"
-          fetch="git://github.com/jvidalsm" />
+          fetch="https://android-review.googlesource.com/" />
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <default revision="master"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="fsl"
            sync-j="4" />
   
